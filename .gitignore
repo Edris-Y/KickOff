@@ -1,0 +1,23 @@
+# Java compilé
+*.class
+out/
+bin/
+target/
+
+# Javadoc généré
+docs/javadoc/
+
+# Données personnelles d'entraînement (gardées en local)
+data/*.csv
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Système
+.DS_Store
+Thumbs.db
