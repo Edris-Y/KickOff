@@ -1,11 +1,11 @@
-# IronLog
+# KickOff
 
-Carnet d'entraînement de musculation en console, écrit en Java. Projet fil rouge du module de Programmation Orientée Objet : l'application grossit à chaque séance de cours.
+Gestionnaire de championnat de football en console, écrit en Java. Projet fil rouge du module de Programmation Orientée Objet : l'application grossit à chaque séance de cours.
 
 ## Structure
 
 ```
-IronLog/
+KickOff/
 ├── src/          code source Java
 ├── docs/
 │   └── uml/      diagrammes draw.io (.drawio) et exports PNG
@@ -34,12 +34,12 @@ java -cp out Main
 
 ## Progression
 
-- [ ] Phase 0 : environnement et syntaxe (calculateur de 1RM en console)
-- [ ] Phase 1 : classes, encapsulation, UML, héritage, polymorphisme
-- [ ] Phase 2 : composition, références, objets immuables
-- [ ] Phase 3 : classes abstraites et interfaces
+- [ ] Phase 0 : environnement et syntaxe (calculateur de points et de classement en console)
+- [ ] Phase 1 : classes, encapsulation, UML, héritage, polymorphisme (Equipe, Joueur, Attaquant, Gardien)
+- [ ] Phase 2 : composition, références, objets immuables (effectif, Score, Match)
+- [ ] Phase 3 : classes abstraites et interfaces (Joueur abstrait, Classable, Comparable)
 - [ ] Phase 4 : exceptions
-- [ ] Phase 5 : collections
+- [ ] Phase 5 : collections (Championnat, calendrier, classement)
 - [ ] Phase 6 : entrées/sorties, Javadoc, finition
 
 ## Conventions
